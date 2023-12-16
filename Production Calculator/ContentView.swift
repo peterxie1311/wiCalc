@@ -24,6 +24,10 @@ struct ContentView: View {
             
                 Text("Entered Double Value: \(numberText)")
                 .padding()
+            Button("Hide Keyboard") {
+                          UIApplication.shared.sendAction(#selector(UIResponder.resignFirstResponder), to: nil, from: nil, for: nil)
+                      }
+                      .padding()
             
             Text("Com Performance AVG.")
             HStack{
