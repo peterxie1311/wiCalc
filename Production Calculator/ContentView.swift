@@ -29,10 +29,11 @@ struct ContentView: View {
                       }
                       .padding()
             
-            Text("Com Performance AVG.")
+            Text("Com AVG.")
             HStack{
-                Text("Com Performance Avg  | ")
-                Text("Hours Needed")
+                Text("Com Avg |")
+                Text("Hours Needed |")
+                Text("Finish Time")
             }
             
             
@@ -43,10 +44,10 @@ struct ContentView: View {
                        } .padding()
            
             
-            Text("Com Performance Needed")
+            Text("Com Needed")
             HStack{
-                Text("Production Hours Remaning  | ")
-                Text("Production Needed")
+                Text("Hours Remaning | ")
+                Text("COM Needed")
             }
             
             List{
